@@ -3,7 +3,7 @@
 
 double algo_pi_leibniz(uint64_t iterations) {
     double pi = 0;
-    int signe = 1;
+    double signe = 1;
     double tmp;
 
     for(int i = 0; i < iterations; i++) {
@@ -16,9 +16,7 @@ double algo_pi_leibniz(uint64_t iterations) {
 }
 
 
-double algo_pi_montecarlo(uint64_t iterations) {
-    double result;
+/*double algo_pi_montecarlo(uint64_t iterations) {
 
-
-    return result;
 }
+*/
